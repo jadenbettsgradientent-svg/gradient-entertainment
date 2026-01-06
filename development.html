@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Active Development | Gradient Entertainment</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header class="site-header">
+    <a href="index.html" class="brand-logo-container" id="brand-logo">
+        
+        <img src="assets/logo-last-frame.jpg" alt="Gradient Entertainment" class="brand-static">
+        
+        <video muted playsinline class="brand-video">
+            <source src="assets/gradient-intro.mp4" type="video/mp4">
+        </video>
+    </a>
+
+    <nav class="nav-links">
+    <a href="about.html">About</a>
+    <a href="development.html">Development</a>
+    <a href="news.html">News</a> <a href="contact.html">Contact</a>
+</nav>
+</header>
+    <main>
+        <div class="slate-header">
+            <h1>Active Development</h1>
+            <div class="toggle-switch">
+                <span class="toggle-label">Full Vault</span>
+                <label class="switch">
+                    <input type="checkbox" id="slate-toggle">
+                    <span class="slider"></span>
+                </label>
+                <span class="toggle-label active-label">Curated</span>
+            </div>
+        </div>
+        
+        <div class="slate-controls">
+            <input type="text" id="search-input" class="search-bar" placeholder="Search the slate...">
+            
+            <div class="filter-scroll-wrapper">
+                <div id="filter-chips" class="chips-container">
+                    </div>
+                <div class="fade-right"></div>
+            </div>
+        </div>
+
+        <div id="slate-list" class="slate-grid">
+            </div>
+    </main>
+
+    <script src="js/data.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Gradient Entertainment</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header class="site-header">
+    <a href="index.html" class="brand-logo-container" id="brand-logo">
+        
+        <img src="assets/logo-last-frame.jpg" alt="Gradient Entertainment" class="brand-static">
+        
+        <video muted playsinline class="brand-video">
+            <source src="assets/gradient-intro.mp4" type="video/mp4">
+        </video>
+    </a>
+
+   <nav class="nav-links">
+    <a href="about.html">About</a>
+    <a href="development.html">Development</a>
+    <a href="news.html">News</a> <a href="contact.html">Contact</a>
+</nav>
+</header>
+
+    <main class="contact-wrapper">
+        <div class="contact-container">
+            <div class="contact-header">
+                <h1>Get in Touch</h1>
+                <p class="subtitle" id="subject-line">Collaborate. Inquire. Create.</p>
+            </div>
+
+         <form class="contact-form" action="https://formsubmit.co/gradient.ent.contact@gmail.com" method="POST">
+    
+    <input type="hidden" name="_subject" value="New Website Inquiry">
+    <input type="hidden" name="_captcha" value="false">
+<input type="hidden" name="_next" value="https://your-live-website.com/contact.html">
+    <div class="form-row">
+        <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder=" " required>
+        </div>
+
+        <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder=" " required>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label for="project-select">Subject</label>
+        <select id="project-select" name="_subject_context">
+            <option value="General Inquiry">General Inquiry</option>
+            </select>
+    </div>
+
+    <div class="form-group">
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" placeholder=" " required></textarea>
+    </div>
+
+    <div class="form-footer">
+        <button type="submit" class="btn-primary btn-block">Send Message</button>
+    </div>
+</form>
+
+    <script src="js/data.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

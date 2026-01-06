@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gradient Entertainment</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    
+    <div class="hero-container" id="main-container">
+        
+        <div id="hero-content" class="content-wrapper visible-content">
+            
+            <audio id="hero-audio" preload="auto">
+                <source src="assets/audio/intro.mp3" type="audio/mpeg">
+            </audio>
+
+            <div class="hero-video-container">
+               <video 
+    muted 
+    autoplay 
+    playsinline 
+    id="hero-anim"
+    poster="assets/logo-last-frame.jpg">
+    <source src="assets/gradient-intro.mp4" type="video/mp4">
+    <h1 class="sr-only">Gradient Entertainment</h1>
+</video>
+            </div>
+
+            <h2 class="hero-subtitle">ENTERTAINMENT</h2>
+        </div>
+
+    </div>
+
+    <script src="js/data.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
